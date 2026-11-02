@@ -52,6 +52,6 @@ source("run_all.R")
 | `R/02_one_stage.R` | one-stage model, bias and expected absolute error curves, linear and functional (GAMM) differences, raters, images |
 | `R/03_sensitivity.R` | linear vs quadratic dispersion, ordered beta regression |
 | `R/04_simulation.R` | power and type I error of the two-stage and one-stage tests (slow; stored results in `output/simulation/`) |
-| `R/05_figures.R` | main figures |
+| `R/05_figures.R` | figures of the main text (Figs 1–4) and supplement (Figs S1–S2): one theme, Okabe-Ito colour-blind palette, panel letters; PDF and 600 dpi PNG at 174 mm width |
 
 Outputs are written to `output/tables`, `output/figures` and `output/models`.
